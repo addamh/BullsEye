@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC01304D1544B9F6007F7D04 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AC01304C1544B9F6007F7D04 /* Icon.png */; };
+		AC0130501544B9FD007F7D04 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC01304F1544B9FD007F7D04 /* Icon@2x.png */; };
 		ACA13B8415447AA000492949 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA13B8315447AA000492949 /* UIKit.framework */; };
 		ACA13B8615447AA000492949 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA13B8515447AA000492949 /* Foundation.framework */; };
 		ACA13B8815447AA000492949 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA13B8715447AA000492949 /* CoreGraphics.framework */; };
@@ -16,23 +18,88 @@
 		ACA13B9715447AA000492949 /* BullsEyeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA13B9615447AA000492949 /* BullsEyeViewController.m */; };
 		ACA13B9A15447AA000492949 /* BullsEyeViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA13B9815447AA000492949 /* BullsEyeViewController_iPhone.xib */; };
 		ACA13B9D15447AA000492949 /* BullsEyeViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA13B9B15447AA000492949 /* BullsEyeViewController_iPad.xib */; };
+		ACA13BA61544AD4800492949 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA13BA41544AD4800492949 /* AboutViewController.m */; };
+		ACA13BA71544AD4800492949 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BA51544AD4800492949 /* AboutViewController.xib */; };
+		ACA13BB41544B0BF00492949 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BAB1544B0BF00492949 /* Background.png */; };
+		ACA13BB51544B0BF00492949 /* Button-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BAC1544B0BF00492949 /* Button-Highlighted.png */; };
+		ACA13BB61544B0BF00492949 /* Button-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BAD1544B0BF00492949 /* Button-Normal.png */; };
+		ACA13BB71544B0BF00492949 /* SliderThumb-Highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BAE1544B0BF00492949 /* SliderThumb-Highlighted.png */; };
+		ACA13BB81544B0BF00492949 /* SliderThumb-Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BAF1544B0BF00492949 /* SliderThumb-Normal.png */; };
+		ACA13BB91544B0BF00492949 /* SliderTrackLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BB01544B0BF00492949 /* SliderTrackLeft.png */; };
+		ACA13BBA1544B0BF00492949 /* SliderTrackRight.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BB11544B0BF00492949 /* SliderTrackRight.png */; };
+		ACA13BBB1544B0BF00492949 /* StartOverButton.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BB21544B0BF00492949 /* StartOverButton.png */; };
+		ACA13BBC1544B0BF00492949 /* StartOverIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BB31544B0BF00492949 /* StartOverIcon.png */; };
+		ACA13BBE1544B77C00492949 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BBD1544B77C00492949 /* BullsEye.html */; };
+		ACA13BC91544B86500492949 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC01544B86500492949 /* Background@2x.png */; };
+		ACA13BCA1544B86500492949 /* Button-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC11544B86500492949 /* Button-Highlighted@2x.png */; };
+		ACA13BCB1544B86500492949 /* Button-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC21544B86500492949 /* Button-Normal@2x.png */; };
+		ACA13BCC1544B86500492949 /* SliderThumb-Highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC31544B86500492949 /* SliderThumb-Highlighted@2x.png */; };
+		ACA13BCD1544B86500492949 /* SliderThumb-Normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC41544B86500492949 /* SliderThumb-Normal@2x.png */; };
+		ACA13BCE1544B86500492949 /* SliderTrackLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC51544B86500492949 /* SliderTrackLeft@2x.png */; };
+		ACA13BCF1544B86500492949 /* SliderTrackRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC61544B86500492949 /* SliderTrackRight@2x.png */; };
+		ACA13BD01544B86500492949 /* StartOverButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC71544B86500492949 /* StartOverButton@2x.png */; };
+		ACA13BD11544B86500492949 /* StartOverIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BC81544B86500492949 /* StartOverIcon@2x.png */; };
+		ACA13BD31544B92E00492949 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA13BD21544B92E00492949 /* QuartzCore.framework */; };
+		ACA13BDF1544B96A00492949 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BD51544B96A00492949 /* Icon-72.png */; };
+		ACA13BE01544B96A00492949 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BD61544B96A00492949 /* Icon-Small-50.png */; };
+		ACA13BE11544B96A00492949 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BD71544B96A00492949 /* Icon-Small.png */; };
+		ACA13BE21544B96A00492949 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BD81544B96A00492949 /* Icon-Small@2x.png */; };
+		ACA13BE31544B96A00492949 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BD91544B96A00492949 /* Icon.png */; };
+		ACA13BE41544B96A00492949 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BDA1544B96A00492949 /* Icon@2x.png */; };
+		ACA13BE51544B96A00492949 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BDB1544B96A00492949 /* iTunesArtwork */; };
+		ACA13BE61544B96A00492949 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BDD1544B96A00492949 /* Default.png */; };
+		ACA13BE71544B96A00492949 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACA13BDE1544B96A00492949 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC01304C1544B9F6007F7D04 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		AC01304F1544B9FD007F7D04 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		ACA13B7F15447AA000492949 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA13B8315447AA000492949 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ACA13B8515447AA000492949 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ACA13B8715447AA000492949 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		ACA13B8B15447AA000492949 /* BullsEye-Info.plist */ = {isa = PBXFileReference; path = "BullsEye-Info.plist"; sourceTree = "<group>"; };
+		ACA13B8B15447AA000492949 /* BullsEye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEye-Info.plist"; sourceTree = "<group>"; };
 		ACA13B8D15447AA000492949 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ACA13B8F15447AA000492949 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ACA13B9115447AA000492949 /* BullsEye-Prefix.pch */ = {isa = PBXFileReference; path = "BullsEye-Prefix.pch"; sourceTree = "<group>"; };
-		ACA13B9215447AA000492949 /* BullsEyeAppDelegate.h */ = {isa = PBXFileReference; path = BullsEyeAppDelegate.h; sourceTree = "<group>"; };
+		ACA13B9115447AA000492949 /* BullsEye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BullsEye-Prefix.pch"; sourceTree = "<group>"; };
+		ACA13B9215447AA000492949 /* BullsEyeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsEyeAppDelegate.h; sourceTree = "<group>"; };
 		ACA13B9315447AA000492949 /* BullsEyeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeAppDelegate.m; sourceTree = "<group>"; };
-		ACA13B9515447AA000492949 /* BullsEyeViewController.h */ = {isa = PBXFileReference; path = BullsEyeViewController.h; sourceTree = "<group>"; };
+		ACA13B9515447AA000492949 /* BullsEyeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullsEyeViewController.h; sourceTree = "<group>"; };
 		ACA13B9615447AA000492949 /* BullsEyeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeViewController.m; sourceTree = "<group>"; };
 		ACA13B9915447AA000492949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BullsEyeViewController_iPhone.xib; sourceTree = "<group>"; };
 		ACA13B9C15447AA000492949 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BullsEyeViewController_iPad.xib; sourceTree = "<group>"; };
+		ACA13BA31544AD4800492949 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		ACA13BA41544AD4800492949 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		ACA13BA51544AD4800492949 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		ACA13BAB1544B0BF00492949 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		ACA13BAC1544B0BF00492949 /* Button-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted.png"; sourceTree = "<group>"; };
+		ACA13BAD1544B0BF00492949 /* Button-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal.png"; sourceTree = "<group>"; };
+		ACA13BAE1544B0BF00492949 /* SliderThumb-Highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted.png"; sourceTree = "<group>"; };
+		ACA13BAF1544B0BF00492949 /* SliderThumb-Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal.png"; sourceTree = "<group>"; };
+		ACA13BB01544B0BF00492949 /* SliderTrackLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackLeft.png; sourceTree = "<group>"; };
+		ACA13BB11544B0BF00492949 /* SliderTrackRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SliderTrackRight.png; sourceTree = "<group>"; };
+		ACA13BB21544B0BF00492949 /* StartOverButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverButton.png; sourceTree = "<group>"; };
+		ACA13BB31544B0BF00492949 /* StartOverIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartOverIcon.png; sourceTree = "<group>"; };
+		ACA13BBD1544B77C00492949 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		ACA13BC01544B86500492949 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+		ACA13BC11544B86500492949 /* Button-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Highlighted@2x.png"; sourceTree = "<group>"; };
+		ACA13BC21544B86500492949 /* Button-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button-Normal@2x.png"; sourceTree = "<group>"; };
+		ACA13BC31544B86500492949 /* SliderThumb-Highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Highlighted@2x.png"; sourceTree = "<group>"; };
+		ACA13BC41544B86500492949 /* SliderThumb-Normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderThumb-Normal@2x.png"; sourceTree = "<group>"; };
+		ACA13BC51544B86500492949 /* SliderTrackLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderTrackLeft@2x.png"; sourceTree = "<group>"; };
+		ACA13BC61544B86500492949 /* SliderTrackRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SliderTrackRight@2x.png"; sourceTree = "<group>"; };
+		ACA13BC71544B86500492949 /* StartOverButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartOverButton@2x.png"; sourceTree = "<group>"; };
+		ACA13BC81544B86500492949 /* StartOverIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartOverIcon@2x.png"; sourceTree = "<group>"; };
+		ACA13BD21544B92E00492949 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		ACA13BD51544B96A00492949 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		ACA13BD61544B96A00492949 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		ACA13BD71544B96A00492949 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		ACA13BD81544B96A00492949 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		ACA13BD91544B96A00492949 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		ACA13BDA1544B96A00492949 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		ACA13BDB1544B96A00492949 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = Icon/iTunesArtwork; sourceTree = "<group>"; };
+		ACA13BDD1544B96A00492949 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		ACA13BDE1544B96A00492949 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACA13BD31544B92E00492949 /* QuartzCore.framework in Frameworks */,
 				ACA13B8415447AA000492949 /* UIKit.framework in Frameworks */,
 				ACA13B8615447AA000492949 /* Foundation.framework in Frameworks */,
 				ACA13B8815447AA000492949 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +120,14 @@
 		ACA13B7415447A9F00492949 = {
 			isa = PBXGroup;
 			children = (
+				ACA13BDB1544B96A00492949 /* iTunesArtwork */,
+				AC01304F1544B9FD007F7D04 /* Icon@2x.png */,
+				AC01304C1544B9F6007F7D04 /* Icon.png */,
+				ACA13BD41544B96A00492949 /* Icon */,
+				ACA13BDC1544B96A00492949 /* Launch Images */,
+				ACA13BBF1544B86500492949 /* Retina Images */,
+				ACA13BBD1544B77C00492949 /* BullsEye.html */,
+				ACA13BAA1544B0BF00492949 /* Images */,
 				ACA13B8915447AA000492949 /* BullsEye */,
 				ACA13B8215447AA000492949 /* Frameworks */,
 				ACA13B8015447AA000492949 /* Products */,
@@ -69,6 +145,7 @@
 		ACA13B8215447AA000492949 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ACA13BD21544B92E00492949 /* QuartzCore.framework */,
 				ACA13B8315447AA000492949 /* UIKit.framework */,
 				ACA13B8515447AA000492949 /* Foundation.framework */,
 				ACA13B8715447AA000492949 /* CoreGraphics.framework */,
@@ -84,6 +161,9 @@
 				ACA13B9515447AA000492949 /* BullsEyeViewController.h */,
 				ACA13B9615447AA000492949 /* BullsEyeViewController.m */,
 				ACA13B9815447AA000492949 /* BullsEyeViewController_iPhone.xib */,
+				ACA13BA31544AD4800492949 /* AboutViewController.h */,
+				ACA13BA41544AD4800492949 /* AboutViewController.m */,
+				ACA13BA51544AD4800492949 /* AboutViewController.xib */,
 				ACA13B9B15447AA000492949 /* BullsEyeViewController_iPad.xib */,
 				ACA13B8A15447AA000492949 /* Supporting Files */,
 			);
@@ -99,6 +179,60 @@
 				ACA13B9115447AA000492949 /* BullsEye-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA13BAA1544B0BF00492949 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACA13BAB1544B0BF00492949 /* Background.png */,
+				ACA13BAC1544B0BF00492949 /* Button-Highlighted.png */,
+				ACA13BAD1544B0BF00492949 /* Button-Normal.png */,
+				ACA13BAE1544B0BF00492949 /* SliderThumb-Highlighted.png */,
+				ACA13BAF1544B0BF00492949 /* SliderThumb-Normal.png */,
+				ACA13BB01544B0BF00492949 /* SliderTrackLeft.png */,
+				ACA13BB11544B0BF00492949 /* SliderTrackRight.png */,
+				ACA13BB21544B0BF00492949 /* StartOverButton.png */,
+				ACA13BB31544B0BF00492949 /* StartOverIcon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ACA13BBF1544B86500492949 /* Retina Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACA13BC01544B86500492949 /* Background@2x.png */,
+				ACA13BC11544B86500492949 /* Button-Highlighted@2x.png */,
+				ACA13BC21544B86500492949 /* Button-Normal@2x.png */,
+				ACA13BC31544B86500492949 /* SliderThumb-Highlighted@2x.png */,
+				ACA13BC41544B86500492949 /* SliderThumb-Normal@2x.png */,
+				ACA13BC51544B86500492949 /* SliderTrackLeft@2x.png */,
+				ACA13BC61544B86500492949 /* SliderTrackRight@2x.png */,
+				ACA13BC71544B86500492949 /* StartOverButton@2x.png */,
+				ACA13BC81544B86500492949 /* StartOverIcon@2x.png */,
+			);
+			path = "Retina Images";
+			sourceTree = "<group>";
+		};
+		ACA13BD41544B96A00492949 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				ACA13BD51544B96A00492949 /* Icon-72.png */,
+				ACA13BD61544B96A00492949 /* Icon-Small-50.png */,
+				ACA13BD71544B96A00492949 /* Icon-Small.png */,
+				ACA13BD81544B96A00492949 /* Icon-Small@2x.png */,
+				ACA13BD91544B96A00492949 /* Icon.png */,
+				ACA13BDA1544B96A00492949 /* Icon@2x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		ACA13BDC1544B96A00492949 /* Launch Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACA13BDD1544B96A00492949 /* Default.png */,
+				ACA13BDE1544B96A00492949 /* Default@2x.png */,
+			);
+			path = "Launch Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +288,37 @@
 				ACA13B8E15447AA000492949 /* InfoPlist.strings in Resources */,
 				ACA13B9A15447AA000492949 /* BullsEyeViewController_iPhone.xib in Resources */,
 				ACA13B9D15447AA000492949 /* BullsEyeViewController_iPad.xib in Resources */,
+				ACA13BA71544AD4800492949 /* AboutViewController.xib in Resources */,
+				ACA13BB41544B0BF00492949 /* Background.png in Resources */,
+				ACA13BB51544B0BF00492949 /* Button-Highlighted.png in Resources */,
+				ACA13BB61544B0BF00492949 /* Button-Normal.png in Resources */,
+				ACA13BB71544B0BF00492949 /* SliderThumb-Highlighted.png in Resources */,
+				ACA13BB81544B0BF00492949 /* SliderThumb-Normal.png in Resources */,
+				ACA13BB91544B0BF00492949 /* SliderTrackLeft.png in Resources */,
+				ACA13BBA1544B0BF00492949 /* SliderTrackRight.png in Resources */,
+				ACA13BBB1544B0BF00492949 /* StartOverButton.png in Resources */,
+				ACA13BBC1544B0BF00492949 /* StartOverIcon.png in Resources */,
+				ACA13BBE1544B77C00492949 /* BullsEye.html in Resources */,
+				ACA13BC91544B86500492949 /* Background@2x.png in Resources */,
+				ACA13BCA1544B86500492949 /* Button-Highlighted@2x.png in Resources */,
+				ACA13BCB1544B86500492949 /* Button-Normal@2x.png in Resources */,
+				ACA13BCC1544B86500492949 /* SliderThumb-Highlighted@2x.png in Resources */,
+				ACA13BCD1544B86500492949 /* SliderThumb-Normal@2x.png in Resources */,
+				ACA13BCE1544B86500492949 /* SliderTrackLeft@2x.png in Resources */,
+				ACA13BCF1544B86500492949 /* SliderTrackRight@2x.png in Resources */,
+				ACA13BD01544B86500492949 /* StartOverButton@2x.png in Resources */,
+				ACA13BD11544B86500492949 /* StartOverIcon@2x.png in Resources */,
+				ACA13BDF1544B96A00492949 /* Icon-72.png in Resources */,
+				ACA13BE01544B96A00492949 /* Icon-Small-50.png in Resources */,
+				ACA13BE11544B96A00492949 /* Icon-Small.png in Resources */,
+				ACA13BE21544B96A00492949 /* Icon-Small@2x.png in Resources */,
+				ACA13BE31544B96A00492949 /* Icon.png in Resources */,
+				ACA13BE41544B96A00492949 /* Icon@2x.png in Resources */,
+				ACA13BE51544B96A00492949 /* iTunesArtwork in Resources */,
+				ACA13BE61544B96A00492949 /* Default.png in Resources */,
+				ACA13BE71544B96A00492949 /* Default@2x.png in Resources */,
+				AC01304D1544B9F6007F7D04 /* Icon.png in Resources */,
+				AC0130501544B9FD007F7D04 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +332,7 @@
 				ACA13B9015447AA000492949 /* main.m in Sources */,
 				ACA13B9415447AA000492949 /* BullsEyeAppDelegate.m in Sources */,
 				ACA13B9715447AA000492949 /* BullsEyeViewController.m in Sources */,
+				ACA13BA61544AD4800492949 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,10 +416,15 @@
 		ACA13BA115447AA000492949 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tristan Hardy (Y574KBBTP8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tristan Hardy (Y574KBBTP8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BullsEye/BullsEye-Prefix.pch";
 				INFOPLIST_FILE = "BullsEye/BullsEye-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2454B312-0DE0-4A46-A3BD-0BB389FDDAE0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2454B312-0DE0-4A46-A3BD-0BB389FDDAE0";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -261,10 +432,15 @@
 		ACA13BA215447AA000492949 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tristan Hardy (Y574KBBTP8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tristan Hardy (Y574KBBTP8)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BullsEye/BullsEye-Prefix.pch";
 				INFOPLIST_FILE = "BullsEye/BullsEye-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2454B312-0DE0-4A46-A3BD-0BB389FDDAE0";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2454B312-0DE0-4A46-A3BD-0BB389FDDAE0";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,6 +464,7 @@
 				ACA13BA215447AA000492949 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
